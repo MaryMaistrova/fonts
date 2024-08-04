@@ -6,21 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Konstruct</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
   <header>
     <ul>
-      <li>ENG</li>
-      <li>Documentation / Who's using</li>
-      <li><img src="images/company-logo-black.svg" alt="logo"></li>
+      <li>
+        <div>
+          <span>ENG</span>
+          <span>Documentation / Who's using</span>
+        </div>
+      </li>
+      <li><img src="images/company-logo-black.svg" alt="logo" width="238" height="54"></li>
     </ul>
   </header>
   <main>
     <section>
-      <h2>Introduction</h2>
-      <span>Chapter 1</span>
+      <div class="headers">
+        <h2>Introduction</h2>
+        <span>Chapter 1</span>
+      </div>
       <p>
         Welcome to the very start of your React Native journey!
         If you're looking for environment setup instructions,
@@ -30,8 +41,10 @@
       </p>
     </section>
     <section>
-      <h2>core components</h2>
-      <span>Chapter 2</span>
+      <div class="headers">
+        <h2>core components</h2>
+        <span>Chapter 2</span>
+      </div>
       <p>
         React Native is an open source framework for building Android
         and iOS applications using React and the app
@@ -44,8 +57,10 @@
       </p>
     </section>
     <section>
-      <h2>react fundamentals</h2>
-      <span>Chapter 3</span>
+      <div class="headers">
+        <h2>react fundamentals</h2>
+        <span>Chapter 3</span>
+      </div>
       <p>
         React Native runs on React, a popular open source library for
         building user interfaces with JavaScript. To make
@@ -63,7 +78,7 @@
       <p>
         &#43 JSX. React and React Native use JSX, a syntax that lets
         you write elements inside JavaScript like so:
-        &ltText&gtHello, I am your cat!&lt/ltText&gt.
+        &ltText&gtHello, I am your cat!&lt&#47Text&gt.
       </p>
       <p>
         The React docs have a comprehensive guide to JSX you can
@@ -82,8 +97,10 @@
       </p>
     </section>
     <section>
-      <h2>handling text input</h2>
-      <span>Chapter 4</span>
+      <div class="headers">
+        <h2>handling text input</h2>
+        <span>Chapter 4</span>
+      </div>
       <p>
         TextInput is a Core Component that allows the user to enter
         text. It has an onChangeText prop that takes a

@@ -1,4 +1,42 @@
-header {
+ul {
   display: flex;
   justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 60px;
 }
+
+div {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 361px;
+  font-size: 22px;
+}
+
+div>span:first-of-type {
+  font-family: "Tourney", serif;
+}
+
+div>span:nth-child(2) {
+  font-family: "Staatliches", serif;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-family: "Francois One", serif;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.headers {
+  width: max-content;
+}
+
+
+
+
+
+
