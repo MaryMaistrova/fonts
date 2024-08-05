@@ -16,15 +16,17 @@
 <body>
 
   <header>
-    <ul>
-      <li>
-        <div>
-          <span>ENG</span>
-          <span>Documentation / Who's using</span>
-        </div>
-      </li>
-      <li><img src="images/company-logo-black.svg" alt="logo" width="238" height="54"></li>
-    </ul>
+    <section>
+      <ul>
+        <li>
+          <div>
+            <span class="bold">ENG</span>
+            <span>Documentation / Who's using</span>
+          </div>
+        </li>
+        <li><img src="images/company-logo-black.svg" alt="logo" width="238" height="54"></li>
+      </ul>
+    </section>
   </header>
   <main>
     <section>
@@ -71,25 +73,25 @@
 
       <p>We’re going to cover the core concepts behind React:</p>
       <p>
-        &#43 components. The rest of this introduction to React uses
+        <span class="bold">&#43 components.</span> The rest of this introduction to React uses
         cats in its examples: friendly, approachable creatures
         that need names and a cafe to work in.
       </p>
       <p>
-        &#43 JSX. React and React Native use JSX, a syntax that lets
+        <span class="bold">&#43 JSX.</span> React and React Native use JSX, a syntax that lets
         you write elements inside JavaScript like so:
-        &ltText&gtHello, I am your cat!&lt&#47Text&gt.
+        <span class="bc">&ltText&gtHello, I am your cat!&lt&#47Text&gt</span>.
       </p>
       <p>
         The React docs have <span class="under">a comprehensive guide to JSX</span> you can
         refer to learn even more. Because JSX is JavaScript,
         you can use variables inside it. Here you are declaring
-        a name for the cat, name, and embedding it with curly braces
-        inside &ltText&gt
+        a <span class="bc">name</span> for the cat, name, and embedding it with curly braces
+        inside <span class="bc">&ltText&gt</span>
       </p>
-      <p>&#43 props. Props is short for “properties”.</p>
+      <p><span class="bold">&#43 props.</span> Props is short for “properties”.</p>
       <p>
-        &#43 state. While you can think of props as arguments you use
+        <span class="bold">&#43 state.</span> While you can think of props as arguments you use
         to configure how components render, state is like a
         component’s personal data storage. State is useful for handling
         data that changes over time or that comes from
@@ -103,7 +105,7 @@
       </div>
       <p>
         TextInput is a Core Component that allows the user to enter
-        text. It has an onChangeText prop that takes a
+        text. It has an <span class="ital">onChangeText</span> prop that takes a
         function to be called every time the text changed, and an
         onSubmitEditing prop that takes a function to be called
         when the text is submitted.

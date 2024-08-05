@@ -1,8 +1,11 @@
+section {
+  max-width: 1200px;
+  margin: auto;
+}
+
 ul {
   display: flex;
   justify-content: space-between;
-  margin-left: 240px;
-  margin-right: 240px;
   margin-bottom: 60px;
 }
 
@@ -27,7 +30,7 @@ li {
 
 .headers {
   width: max-content;
-  margin: 70px 240px 40px;
+  margin: 70px 0px 40px;
 }
 
 h2 {
@@ -46,10 +49,9 @@ section>div>span {
 p {
   font-family: "PT Sans", serif;
   font-size: 28px;
-  margin-left: 240px;
-  margin-right: 240px;
   margin-top: 0px;
   margin-bottom: 0px;
+  line-height: 2;
 }
 
 .under {
@@ -60,9 +62,14 @@ p {
   font-style: italic;
 }
 
+.bold {
+  font-weight: bold;
+}
 
+.bold:first-of-type {
+  margin-left: -35px;
+}
 
-
-
-
-
+.bc {
+  background-color: lightgray;
+}
