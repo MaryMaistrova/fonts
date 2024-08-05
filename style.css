@@ -1,8 +1,8 @@
 ul {
   display: flex;
   justify-content: space-between;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 240px;
+  margin-right: 240px;
   margin-bottom: 60px;
 }
 
@@ -13,16 +13,21 @@ div {
   font-size: 22px;
 }
 
-div>span:first-of-type {
+li>div>span:first-of-type {
   font-family: "Tourney", serif;
 }
 
-div>span:nth-child(2) {
+li>div>span:nth-child(2) {
   font-family: "Staatliches", serif;
 }
 
 li {
   list-style: none;
+}
+
+.headers {
+  width: max-content;
+  margin: 70px 240px 40px;
 }
 
 h2 {
@@ -31,9 +36,30 @@ h2 {
   text-transform: uppercase;
 }
 
-.headers {
-  width: max-content;
+section>div>span {
+  font-family: "Farro", serif;
+  margin-left: 10px;
+  font-size: 16px;
+  margin-top: 30px;
 }
+
+p {
+  font-family: "PT Sans", serif;
+  font-size: 28px;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.ital {
+  font-style: italic;
+}
+
 
 
 
