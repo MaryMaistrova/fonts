@@ -20,17 +20,11 @@ ul {
   grid-template-columns: 385px 785px;
   grid-template-rows: auto;
   justify-content: center;
-}
-
-main {
-  position: relative;
-}
-
-img.bcg {
-  position: sticky;
-  z-index: -1;
-  left: 220px;
-  top: 100px;
+  overflow: auto;
+  background-image: url(images/bg-picture.svg) ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 1000px 110px;
 }
 
 aside {
@@ -39,6 +33,7 @@ aside {
   text-transform: uppercase;
   margin-top: 100px;
   position: sticky;
+  top: 100px;
 }
 
 aside>nav {
