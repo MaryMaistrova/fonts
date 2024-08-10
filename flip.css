@@ -1,0 +1,36 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  justify-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.flip-card {
+  height: 180px;
+  width: 270px;
+
+  >*>* {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 180px;
+    width: 270px;
+  }
+}
+
+.flip-card-inner:hover .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+.flip-card-back {
+  background-color: #e6e6e6;
+}
+
+.flip-card-front {
+  background-color: black;
+}
