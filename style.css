@@ -1,3 +1,15 @@
+body {
+  margin: 0px;
+}
+
+header {
+  height: 100px;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
 section {
   max-width: 1200px;
   margin: auto;
@@ -7,7 +19,7 @@ ul {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
-  position: fixed;
+  position: relative;
 }
 
 .logo {
@@ -22,9 +34,8 @@ ul {
   justify-content: center;
   overflow: auto;
   background-image: url(images/bg-picture.svg) ;
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: 1000px 110px;
+  background-position: left 650px top 100px;
 }
 
 aside {
