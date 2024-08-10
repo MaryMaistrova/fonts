@@ -1,9 +1,39 @@
+header {
+  height: 100px;
+  background: #fff;
+  position: fixed;
+  width: 1200px;
+  z-index: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+span:first-of-type {
+  font-family: "Tourney", serif;
+}
+span:last-of-type {
+  font-family: "Staatliches", serif;}
+
+.logo {
+  position: absolute;
+  left: 1300px;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   justify-items: center;
+  width: 1200px;
+  border-radius: 8px;
+  margin: auto;
+  padding-top: 200px;
 }
 
 ul {
@@ -13,6 +43,7 @@ ul {
 .flip-card {
   height: 180px;
   width: 270px;
+  perspective: 500px;
 
   >*>* {
     justify-content: center;
@@ -23,7 +54,16 @@ ul {
   }
 }
 
-.flip-card-inner:hover .flip-card-inner{
+.flip-card-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner{
   transform: rotateY(180deg);
 }
 
@@ -33,4 +73,13 @@ ul {
 
 .flip-card-front {
   background-color: black;
+  transform: rotateY(180deg);
 }
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 8px;
+} 
