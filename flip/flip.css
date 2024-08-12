@@ -23,6 +23,11 @@ span:last-of-type {
   font-family: "Staatliches", serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .subheader {
   width: 1200px;
   margin: auto;
@@ -60,7 +65,8 @@ h2 {
   width: 1200px;
   border-radius: 8px;
   margin: auto;
-  padding-top: 75px;
+  padding-top: 20px;
+  padding-right: 35px;
 }
 
 ul {
