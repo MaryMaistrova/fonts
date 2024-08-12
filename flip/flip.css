@@ -25,7 +25,15 @@ span:last-of-type {
 
 .subheader {
   width: 1200px;
-  display: inline;
+  margin: auto;
+}
+
+hr {
+  height: 1px;
+  width: 1200px;
+  margin: auto;
+  background-color: lightgray;
+  margin-top: 20px;
 }
 
 h2 {
@@ -33,13 +41,14 @@ h2 {
   font-size: 36px;
   text-transform: uppercase;
   margin-left: 35px;
-  display: inline;
+  display: inline-block;
 }
 
 .fat {
   height: 8px;
   width: 100px;
   background-color: black;
+  display: inline-block;
 }
 
 .cards {
